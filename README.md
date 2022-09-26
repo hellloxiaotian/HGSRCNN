@@ -58,7 +58,7 @@
 
 ## 1. Network architecture of HGSRCNN
 
-![Network architecture of HGSRCNN](./img/Network architecture of HGSRCNN.png)
+<img src="./img/Network architecture of HGSRCNN.png" alt="Network architecture of HGSRCNN" style="zoom:50%;" />
 
 ## 2. Architecture of a parallel up-sampling mechanism
 
