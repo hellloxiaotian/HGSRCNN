@@ -46,12 +46,12 @@
 
 ### Training a model for different scales (also regarded as blind SR)
 
-#### python esrgcnn/train.py --patch_size 83 --batch_size 32 --max_steps 600000 --decay 400000 --model esrgcnn --ckpt_name esrgcnn --ckpt_dir checkpoint/esrgcnn --scale 0 --num_gpu 1
+#### python train.py --patch_size 83 --batch_size 32 --max_steps 600000 --decay 400000 --model HGSRCNN --ckpt_name HGSRCNN --ckpt_dir checkpoint/HGSRCNN --scale 0 --num_gpu 1
 
 ### Using a model to test different scales of 2,3 and 4 (also regarded as blind SR)
 
-#### python tcw_sample_b.py --model esrgcnn --test_data_dir dataset/Set5 --scale 2 --ckpt_path checkpoint/esrgcnn.pth --sample_dir samples_singlemodel_urban100_x2
+#### python tcw_sample.py --model HGSRCNN --test_data_dir dataset/Set5 --scale 2 --ckpt_path checkpoint/HGSRCNN.pth --sample_dir samples_singlemodel_urban100_x2
 
-#### python tcw_sample_b.py --model esrgcnn --test_data_dir dataset/Set5 --scale 3 --ckpt_path checkpoint/esrgcnn.pth --sample_dir samples_singlemodel_urban100_x3
+#### python tcw_sample.py --model HGSRCNN --test_data_dir dataset/Set5 --scale 3 --ckpt_path checkpoint/HGSRCNN.pth --sample_dir samples_singlemodel_urban100_x3
 
-#### python tcw_sample_b.py --model esrgcnn --test_data_dir dataset/Set5 --scale 4 --ckpt_path checkpoint/esrgcnn.pth --sample_dir samples_singlemodel_urban100_x4
+#### python tcw_sample.py --model HGSRCNN --test_data_dir dataset/Set5 --scale 4 --ckpt_path checkpoint/HGSRCNN.pth --sample_dir samples_singlemodel_urban100_x4
