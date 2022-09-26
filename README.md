@@ -55,3 +55,47 @@
 #### python tcw_sample.py --model HGSRCNN --test_data_dir dataset/Set5 --scale 3 --ckpt_path checkpoint/HGSRCNN.pth --sample_dir samples_singlemodel_urban100_x3
 
 #### python tcw_sample.py --model HGSRCNN --test_data_dir dataset/Set5 --scale 4 --ckpt_path checkpoint/HGSRCNN.pth --sample_dir samples_singlemodel_urban100_x4
+
+## 1. Network architecture of HGSRCNN
+
+![Network architecture of HGSRCNN](./img/Network architecture of HGSRCNN.png)
+
+## 2. Architecture of a parallel up-sampling mechanism
+
+<img src="./img/Architecture of a parallel up-sampling mechanism.png" alt="Architecture of a parallel up-sampling mechanism" style="zoom:50%;" />
+
+## 3. HGSRCNN for x2，x3 and x4 on Set5
+
+<img src="./img/Set5.png" alt="Set5" style="zoom:67%;" />
+
+## 4. HGSRCNN for x2，x3 and x4 on Set14
+
+<img src="./img/Set14.png" alt="Set14" style="zoom:67%;" />
+
+## 5. HGSRCNN for x2，x3 and x4  on B100
+
+<img src="./img/B100.png" alt="B100" style="zoom:67%;" />
+
+## 6. HGSRCNN for x2，x3 and x4  on U100
+
+<img src="./img/U100.png" alt="U100" style="zoom:67%;" />
+
+## 7. Running time of different methods on hr images of size 256x256, 512x512 and 1024x1024 for x2.
+
+![Running time](./img/Running time.png)
+
+## 8. Complexities of different methods for x2.
+
+![Complexity](./img/Complexity.png)
+
+## 9. ESRGCNN for x2, x3 and x4 on B100 about FSIM.
+
+![FSIM](./img/FSIM.png)
+
+## 10. Visual results of U100 for x3.
+
+<img src="./img/VU100.png" alt="VU100" style="zoom:67%;" />
+
+## 11. Visual results of B100 for x4.
+
+![VB00](./img/VB00.png)
