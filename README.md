@@ -6,6 +6,8 @@
 
 This paper can be obtained at https://arxiv.org/abs/2209.12406.
 
+<video src="img/Video.mp4" />
+
 ## Requirements (Pytorch)  
 #### Pytorch 0.41
 
