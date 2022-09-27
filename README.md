@@ -4,8 +4,6 @@
 ## Absract
 #### Convolutional neural networks (CNNs) have obtained remarkable performance via deep architectures. However, these CNNs often achieve poor robustness for image super-resolution (SR) under complex scenes. In this paper, we present a heterogeneous group SR CNN (HGSRCNN) via leveraging structure information of different types to obtain a high-quality image. Specifically, each heterogeneous group block (HGB) of HGSRCNN uses a heterogeneous architecture containing a symmetric group convolutional block and a complementary convolutional block in a parallel way to enhance internal and external relations of different channels for facilitating richer low-frequency structure information of different types. To prevent appearance of obtained redundant features, a refinement block with signal enhancements in a serial way is designed to filter useless information. To prevent loss of original information, a multi-level enhancement mechanism guides a CNN to achieve a symmetric architecture for promoting expressive ability of HGSRCNN. Besides, a parallel up-sampling mechanism is developed to train a blind SR model. Extensive experiments illustrate that the proposed HGSRCNN has obtained excellent SR performance in terms of both quantitative and qualitative analysis. Codes can be accessed at https://github.com/hellloxiaotian/HGSRCNN.
 
-This paper can be obtained at https://arxiv.org/abs/2209.12406.
-
 <video src="img/Video.mp4" />
 
 ## Requirements (Pytorch)  
@@ -62,7 +60,7 @@ This paper can be obtained at https://arxiv.org/abs/2209.12406.
 
 ## 1. Network architecture of HGSRCNN
 
-<img src="./img/Network architecture of HGSRCNN.png" alt="Network architecture of HGSRCNN" style="zoom:50%;" />
+![Network architecture of HGSRCNN](./img/Network architecture of HGSRCNN.png)
 
 ## 2. Architecture of a parallel up-sampling mechanism
 
@@ -103,3 +101,7 @@ This paper can be obtained at https://arxiv.org/abs/2209.12406.
 ## 11. Visual results of B100 for x4.
 
 ![VB00](./img/VB00.png)
+
+
+
+### This paper can be obtained at https://arxiv.org/abs/2209.12406.
