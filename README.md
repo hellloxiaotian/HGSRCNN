@@ -1,5 +1,5 @@
 # A heterogenous group CNN for image super-resolution (HGSRCNN)
-## This paper is conducted by Chunwei Tian (IEEE Member), Yanning Zhang (IEEE Senior Member), Wangmeng Zuo (IEEE Senior Member), Chia-Wen Lin (IEEE Fellow), David Zhang (IEEE Life Fellow) and Yixuan Yuan (IEEE Member). This paper is accepted by the IEEE Transactions on Neural Networks and Learning Systems (SCI-IF:14.255).  
+## This paper is conducted by Chunwei Tian (IEEE Member), Yanning Zhang (IEEE Senior Member), Wangmeng Zuo (IEEE Senior Member), Chia-Wen Lin (IEEE Fellow), David Zhang (IEEE Life Fellow) and Yixuan Yuan (IEEE Member). This paper is accepted by the IEEE Transactions on Neural Networks and Learning Systems (SCI-IF:14.255).  This paper can be obtained at https://arxiv.org/abs/2209.12406.
 
 ## Absract
 #### Convolutional neural networks (CNNs) have obtained remarkable performance via deep architectures. However, these CNNs often achieve poor robustness for image super-resolution (SR) under complex scenes. In this paper, we present a heterogeneous group SR CNN (HGSRCNN) via leveraging structure information of different types to obtain a high-quality image. Specifically, each heterogeneous group block (HGB) of HGSRCNN uses a heterogeneous architecture containing a symmetric group convolutional block and a complementary convolutional block in a parallel way to enhance internal and external relations of different channels for facilitating richer low-frequency structure information of different types. To prevent appearance of obtained redundant features, a refinement block with signal enhancements in a serial way is designed to filter useless information. To prevent loss of original information, a multi-level enhancement mechanism guides a CNN to achieve a symmetric architecture for promoting expressive ability of HGSRCNN. Besides, a parallel up-sampling mechanism is developed to train a blind SR model. Extensive experiments illustrate that the proposed HGSRCNN has obtained excellent SR performance in terms of both quantitative and qualitative analysis. Codes can be accessed at https://github.com/hellloxiaotian/HGSRCNN.
@@ -107,4 +107,4 @@ https://user-images.githubusercontent.com/25679314/192536076-f5122657-5f8e-4d39-
 
 
 
-### This paper can be obtained at https://arxiv.org/abs/2209.12406.
+
