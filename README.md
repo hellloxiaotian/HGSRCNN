@@ -105,6 +105,13 @@ https://user-images.githubusercontent.com/25679314/192536076-f5122657-5f8e-4d39-
 
 ![VB00](./img/VB00.png)
 
-
+## You can cite this paper, according to the following information. 
+## 1. Tian C, Zhang Y, Zuo W, et al. A heterogeneous group CNN for image super-resolution[J]. arXiv preprint arXiv:2209.12406, 2022.
+## 2. @article{tian2022heterogeneous,
+##   title={A heterogeneous group CNN for image super-resolution},
+##   author={Tian, Chunwei and Zhang, Yanning and Zuo, Wangmeng and Lin, Chia-Wen and Zhang, David and Yuan, Yixuan},
+##   journal={arXiv preprint arXiv:2209.12406},
+##   year={2022}
+##   }
 
 
